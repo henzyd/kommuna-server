@@ -1,12 +1,6 @@
-Here’s a clean, professional README you can replace your current one with 👇
-
----
-
 # 🚀 Kommuna Backend (NestJS)
 
 A **real-time messaging backend system** built with NestJS, designed to handle scalable chat interactions, WebSocket communication, and concurrent users.
-
----
 
 ## 📖 Overview
 
@@ -20,8 +14,6 @@ The goal is to build and stress-test a **high-performance messaging infrastructu
 
 This project emphasizes **WebSockets**, **event-driven architecture**, and **state synchronization**.
 
----
-
 ## 🧱 Tech Stack
 
 - **Framework:** NestJS
@@ -31,8 +23,6 @@ This project emphasizes **WebSockets**, **event-driven architecture**, and **sta
 - **Database:** Postgres
 - **ORM/ODM:** Typeorm
 
----
-
 ## ✨ Core Features
 
 - 🔐 Authentication (JWT-based)
@@ -41,8 +31,6 @@ This project emphasizes **WebSockets**, **event-driven architecture**, and **sta
 - 🟢 Online / Offline Presence (WebSockets)
 - 📎 Media Uploads _(optional)_
 
----
-
 ## 🧠 Key Concepts Covered
 
 - WebSockets (real-time communication)
@@ -50,8 +38,6 @@ This project emphasizes **WebSockets**, **event-driven architecture**, and **sta
 - State synchronization
 - Message persistence
 - Scalable backend architecture
-
----
 
 ## 📅 Development Breakdown
 
@@ -72,8 +58,6 @@ This project emphasizes **WebSockets**, **event-driven architecture**, and **sta
 - Media upload (optional)
 - Cleanup & optimization
 - API refinement
-
----
 
 ## ⚙️ Project Setup
 
@@ -100,8 +84,6 @@ JWT_SECRET=your_secret_key
 DATABASE_URL=your_database_connection
 ```
 
----
-
 ## ▶️ Running the Application
 
 ```bash
@@ -112,8 +94,6 @@ pnpm run start:dev
 pnpm run start:prod
 ```
 
----
-
 ## 🔌 WebSocket Gateway
 
 This project uses WebSockets for:
@@ -123,8 +103,6 @@ This project uses WebSockets for:
 - Event broadcasting
 
 Make sure your frontend connects to the correct WebSocket endpoint.
-
----
 
 ## 🧪 Testing
 
@@ -139,8 +117,6 @@ pnpm run test:e2e
 pnpm run test:cov
 ```
 
----
-
 ## 📂 Suggested Project Structure
 
 ```
@@ -154,8 +130,6 @@ src/
 ├── common/          # Shared utilities
 └── config/          # Environment config
 ```
-
----
 
 ## 🚀 Deployment
 
@@ -172,8 +146,6 @@ You can deploy using:
 - AWS / VPS
 - NestJS Mau (optional)
 
----
-
 ## 🎯 Project Goal Recap
 
 This project is designed to:
@@ -182,24 +154,8 @@ This project is designed to:
 - Simulate real-world chat architecture
 - Build strong backend + real-time engineering skills
 
----
-
 ## 📌 Notes
 
 - Focus heavily on **WebSockets** — this is the core of the project.
 - Optimize for **performance and scalability**, not just functionality.
 - Keep APIs clean and consistent.
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-If you want, I can also:
-
-- Add **API endpoint documentation (Swagger)**
-- Design **database schemas**
-- Or structure the **WebSocket events properly** (very important for this project)
